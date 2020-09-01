@@ -11,7 +11,7 @@ extern "C" {
 /* value should be NULL and key must be 0 when pair is unused.
  * valid key should be larger than 0.
  */
-typedef long Key;
+typedef int Key;
 typedef int Value;
 #ifdef NVHTM
 extern const Key UNUSED_KEY;
