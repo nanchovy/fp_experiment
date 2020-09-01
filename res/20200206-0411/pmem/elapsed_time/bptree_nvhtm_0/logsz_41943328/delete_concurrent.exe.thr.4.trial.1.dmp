@@ -1,0 +1,163 @@
+initial_elements = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 4, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 81886592 byte
+log_size = 251659968
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7fae52a00000
+number of entry = 2097152
+*******************Thread 4*******************
+***********************************************
+remaining value = 222773
+wait_for_checkpoint = 0.000015
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2472430
+	ABORT    = 1946046
+	EXPLICIT = 244
+	RETRY    = 22
+	CONFLICT = 22
+	CAPACITY = 244279
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 1701745
+	FALLBACK = 27570
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 2:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 3:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 4:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 5:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 244, 0, 0
+*******************Thread 1*******************
+***********************************************
+adding
+NH_time_blocked = 12136571782
+NH_count_blocks = 46
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.667931
+*******************Thread 4*******************
+***********************************************
+adding
+NH_time_blocked = 12242889746
+NH_count_blocks = 39
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.708821
+*******************Thread 3*******************
+***********************************************
+adding
+NH_time_blocked = 11454475520
+NH_count_blocks = 55
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.405583
+*******************Thread 2*******************
+***********************************************
+adding
+NH_time_blocked = 11418016510
+NH_count_blocks = 49
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.391561
+remaining value = 1392957
+wait_for_checkpoint = 0.000018
+finish running threads
+adding
+NH_time_blocked = 0
+NH_count_blocks = 0
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000000
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 18.173896 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 2499434
+ABORTS : 46773
+CONFLS : 12406
+CAPACS : 4745
+EXPLIC : 189
+FALLBK : 566
+   P_A : 0.018370
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 8.889553 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          383092141
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          378
+TOTAL_TIME_B (clocks) 47251953558
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.007397 s!
+[FORKED_MANAGER] Nb. checkpoints 31
+[FORKED_MANAGER] Time active 25637.928030 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 273
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 2
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 12.450409
+[FORKED_MANAGER] sec. 2 (find commit) = 0.303082
+[FORKED_MANAGER] sec. 3 (apply) = 11.489433
+[FORKED_MANAGER] sec. 4 (flush) = 0.855051
+[logger] NB_spins=0 NB_writes=131507463 TIME_spins=0.000000ms
+7.128264

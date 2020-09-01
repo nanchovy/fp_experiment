@@ -1,0 +1,172 @@
+log_size = 8388608
+log_size_per_thread = 1048576
+LOG_global_ptr = 0x7fc5a4699000
+number of entry = 32768
+Budget=20
+adding
+NH_time_blocked = 264514
+NH_count_blocks = 310
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000103
+adding
+NH_time_blocked = 266020
+NH_count_blocks = 305
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000103
+adding
+NH_time_blocked = 267166
+NH_count_blocks = 320
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000104
+adding
+NH_time_blocked = 255956
+NH_count_blocks = 311
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000100
+adding
+NH_time_blocked = 277534
+NH_count_blocks = 287
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000092
+adding
+NH_time_blocked = 272830
+NH_count_blocks = 315
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000106
+adding
+NH_time_blocked = 295168
+NH_count_blocks = 293
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000115
+adding
+NH_time_blocked = 291550
+NH_count_blocks = 361
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000113
+adding
+NH_time_blocked = 7833588
+NH_count_blocks = 10659
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.003045
+adding
+NH_time_blocked = 7991474
+NH_count_blocks = 10849
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.003089
+adding
+NH_time_blocked = 7569268
+NH_count_blocks = 10201
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.002914
+adding
+NH_time_blocked = 7905478
+NH_count_blocks = 10877
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.003089
+adding
+NH_time_blocked = 7589214
+NH_count_blocks = 10085
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.002902
+adding
+NH_time_blocked = 8384264
+NH_count_blocks = 11437
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.003230
+adding
+NH_time_blocked = 7972468
+NH_count_blocks = 10965
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.003078
+adding
+NH_time_blocked = 7760168
+NH_count_blocks = 10767
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.003041
+adding
+NH_time_blocked = 16183542
+NH_count_blocks = 22208
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.006253
+adding
+NH_time_blocked = 15444722
+NH_count_blocks = 21174
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.005979
+adding
+NH_time_blocked = 15118160
+NH_count_blocks = 20992
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.005908
+adding
+NH_time_blocked = 15645464
+NH_count_blocks = 21574
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.006080
+adding
+NH_time_blocked = 14764116
+NH_count_blocks = 19934
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.005682
+adding
+NH_time_blocked = 15335714
+NH_count_blocks = 21032
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.005941
+adding
+NH_time_blocked = 15429426
+NH_count_blocks = 21409
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.005971
+adding
+NH_time_blocked = 14911016
+NH_count_blocks = 20376
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.005762
+--- Percentage time blocked 0.009274 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 0.072800 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 127673
+ABORTS : 2709907
+CONFLS : 2540244
+CAPACS : 500
+EXPLIC : 168699
+FALLBK : 134494
+   P_A : 0.955006
+     X : 403454.247674
+ ---   TIME
+TRANSACTION_ABORT_TIME: 1.882375 s
+TRANSACTION_TIME: 1.031825 s
+Time 0.649806 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          27263022
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          514082
+TOTAL_TIME_B (clocks) 188028820
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.571585 s!
+[FORKED_MANAGER] Nb. checkpoints 52
+[FORKED_MANAGER] Time active 612.297516 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 52
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 0
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 0.000152
+[FORKED_MANAGER] sec. 2 (find commit) = 0.001250
+[FORKED_MANAGER] sec. 3 (apply & flush) = 0.252424
+[FORKED_MANAGER] cpthread logwrite = 0.205068
+[FORKED_MANAGER] cpthread write & flush = 0.000146
+[logger] NB_spins=0 NB_writes=416 TIME_spins=0.000000ms

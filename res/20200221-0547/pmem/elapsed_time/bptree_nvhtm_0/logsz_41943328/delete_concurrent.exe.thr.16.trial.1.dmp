@@ -1,0 +1,379 @@
+initial_elements = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 16, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 81911744 byte
+log_size = 754979904
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7f4569e00000
+number of entry = 2097152
+*******************Thread 16*******************
+***********************************************
+remaining value = 113116609
+wait_for_checkpoint = 0.000029
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2474186
+	ABORT    = 2605561
+	EXPLICIT = 276
+	RETRY    = 146
+	CONFLICT = 146
+	CAPACITY = 433780
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 2171635
+	FALLBACK = 25814
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 2:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 3:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 4:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 5:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 6:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 7:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 8:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 9:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 10:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 11:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 12:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 13:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 14:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 15:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 16:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 17:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 1, 243, 0
+*******************Thread 2*******************
+***********************************************
+adding
+NH_time_blocked = 38315011472
+NH_count_blocks = 21
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.736552
+*******************Thread 3*******************
+***********************************************
+adding
+NH_time_blocked = 38303080606
+NH_count_blocks = 21
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.731964
+*******************Thread 15*******************
+***********************************************
+adding
+NH_time_blocked = 38355177188
+NH_count_blocks = 24
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.752000
+*******************Thread 10*******************
+***********************************************
+adding
+NH_time_blocked = 38326524080
+NH_count_blocks = 19
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.740980
+*******************Thread 12*******************
+***********************************************
+adding
+NH_time_blocked = 38307127618
+NH_count_blocks = 24
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.733520
+*******************Thread 11*******************
+***********************************************
+adding
+NH_time_blocked = 38324731006
+NH_count_blocks = 17
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.740287
+*******************Thread 16*******************
+***********************************************
+adding
+NH_time_blocked = 38342747504
+NH_count_blocks = 24
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.747219
+*******************Thread 14*******************
+***********************************************
+adding
+NH_time_blocked = 38347370704
+NH_count_blocks = 23
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.748998
+*******************Thread 1*******************
+***********************************************
+adding
+NH_time_blocked = 38194287642
+NH_count_blocks = 84
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.690119
+*******************Thread 6*******************
+***********************************************
+adding
+NH_time_blocked = 38207954864
+NH_count_blocks = 98
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.695378
+*******************Thread 4*******************
+***********************************************
+adding
+NH_time_blocked = 38201141394
+NH_count_blocks = 97
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.692757
+*******************Thread 8*******************
+***********************************************
+adding
+NH_time_blocked = 38206366988
+NH_count_blocks = 121
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.694769
+*******************Thread 5*******************
+***********************************************
+adding
+NH_time_blocked = 38203996048
+NH_count_blocks = 121
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.693855
+*******************Thread 7*******************
+***********************************************
+adding
+NH_time_blocked = 38201974108
+NH_count_blocks = 115
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.693077
+*******************Thread 9*******************
+***********************************************
+adding
+NH_time_blocked = 38201138784
+NH_count_blocks = 136
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.692755
+*******************Thread 13*******************
+***********************************************
+adding
+NH_time_blocked = 38226828754
+NH_count_blocks = 131
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 14.702635
+remaining value = 143245240
+wait_for_checkpoint = 0.000008
+finish running threads
+adding
+NH_time_blocked = 0
+NH_count_blocks = 0
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000000
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 235.486866 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 2498935
+ABORTS : 77853
+CONFLS : 40344
+CAPACS : 5566
+EXPLIC : 1076
+FALLBK : 1065
+   P_A : 0.030213
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 0.331415 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          383480071
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          2152
+TOTAL_TIME_B (clocks) 612265458760
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.020483 s!
+[FORKED_MANAGER] Nb. checkpoints 8
+[FORKED_MANAGER] Time active 48873.101732 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 0
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 8
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 0.901351
+[FORKED_MANAGER] sec. 2 (find commit) = 2.452386
+[FORKED_MANAGER] sec. 3 (apply) = 10.970043
+[FORKED_MANAGER] sec. 4 (flush) = 0.209670
+[logger] NB_spins=0 NB_writes=110727597 TIME_spins=0.000000ms
+16.850222

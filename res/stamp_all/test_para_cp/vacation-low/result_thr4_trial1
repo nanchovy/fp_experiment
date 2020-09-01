@@ -1,0 +1,72 @@
+log_size = 167773312
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7f32eaa00000
+number of entry = 2097152
+Budget=20
+adding
+NH_time_blocked = 13998
+NH_count_blocks = 8
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000006
+adding
+NH_time_blocked = 27852
+NH_count_blocks = 9
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000011
+adding
+NH_time_blocked = 20538
+NH_count_blocks = 7
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000008
+adding
+NH_time_blocked = 23438
+NH_count_blocks = 12
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000009
+--- Percentage time blocked 0.000114 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 0.000034 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 65329
+ABORTS : 5971
+CONFLS : 574
+CAPACS : 2512
+EXPLIC : 36
+FALLBK : 207
+   P_A : 0.083745
+     X : 1359328.178502
+ ---   TIME
+TRANSACTION_ABORT_TIME: 0.010159 s
+TRANSACTION_TIME: 0.126710 s
+Time 0.048212 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          111470
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          72
+TOTAL_TIME_B (clocks) 85826
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.002577 s!
+[FORKED_MANAGER] Nb. checkpoints 0
+[FORKED_MANAGER] Time active 276.530542 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 0
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 0
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 0.000000
+[FORKED_MANAGER] sec. 2 (find commit) = 0.000000
+[FORKED_MANAGER] sec. 3 (apply & flush) = 0.000000
+[FORKED_MANAGER] cpthread write = 0.000000
+[FORKED_MANAGER] cpthread flush = 0.000000
+[logger] NB_spins=0 NB_writes=0 TIME_spins=0.000000ms

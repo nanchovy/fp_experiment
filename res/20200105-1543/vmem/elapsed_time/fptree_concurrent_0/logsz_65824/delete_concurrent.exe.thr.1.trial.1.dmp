@@ -1,0 +1,8 @@
+warm_up = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 1, pmem_path = /home/iiboshi/dramdir/data, log_path = /home/iiboshi/dramdir/log
+allocating 88128400 byte
+*******************Thread 1*******************
+***********************************************
+*******************Thread 1*******************
+***********************************************
+write count: 0
+finish running threads

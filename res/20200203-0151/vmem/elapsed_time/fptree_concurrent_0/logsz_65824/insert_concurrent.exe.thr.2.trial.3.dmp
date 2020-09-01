@@ -1,0 +1,11 @@
+initial_elements = 2500000, loop_times = 5000000, max_val = 7500000, thread_max = 2, pmem_path = /home/iiboshi/dramdir/data, log_path = /home/iiboshi/dramdir/log
+allocating 270005824 byte
+*******************Thread 2*******************
+***********************************************
+*******************Thread 2*******************
+***********************************************
+*******************Thread 1*******************
+***********************************************
+finish running threads
+write count: 0
+5.317935

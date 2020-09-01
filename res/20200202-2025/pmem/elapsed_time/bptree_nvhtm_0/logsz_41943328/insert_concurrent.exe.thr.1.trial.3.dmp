@@ -1,0 +1,86 @@
+initial_elements = 2500000, loop_times = 5000000, max_val = 7500000, thread_max = 1, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 248088639 byte
+log_size = 83886656
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7f57fac00000
+number of entry = 2097152
+*******************Thread 1*******************
+***********************************************
+wait_for_checkpoint = 3.799843
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2474577
+	ABORT    = 1933837
+	EXPLICIT = 264
+	RETRY    = 29
+	CONFLICT = 29
+	CAPACITY = 214996
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 1718812
+	FALLBACK = 25423
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 223, 21, 0
+*******************Thread 1*******************
+***********************************************
+wait_for_checkpoint = 7.169594
+finish running threads
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000033 s!
+--- NH time blocked by CHECK_LOG_ABORT 27.978540 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 4947037
+ABORTS : 4174034
+CONFLS : 56
+CAPACS : 458552
+EXPLIC : 540
+FALLBK : 52963
+   P_A : 0.457625
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 28.351514 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          777020833
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          1684
+TOTAL_TIME_B (clocks) 72744047602
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.015878 s!
+[FORKED_MANAGER] Nb. checkpoints 489
+[FORKED_MANAGER] Time active 72290.469848 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 681
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 52
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 39.061883
+[FORKED_MANAGER] sec. 2 (find commit) = 0.023293
+[FORKED_MANAGER] sec. 3 (apply) = 24.917227
+[FORKED_MANAGER] sec. 4 (flush) = 2.299710
+[logger] NB_spins=0 NB_writes=357580452 TIME_spins=0.000000ms
+73.178022

@@ -1,0 +1,163 @@
+initial_elements = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 4, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 81886592 byte
+log_size = 251659968
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7f2613c00000
+number of entry = 2097152
+*******************Thread 4*******************
+***********************************************
+remaining value = 0
+wait_for_checkpoint = 0.000008
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2474302
+	ABORT    = 1047963
+	EXPLICIT = 260
+	RETRY    = 67
+	CONFLICT = 67
+	CAPACITY = 468103
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 579793
+	FALLBACK = 25698
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 2:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 3:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 4:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 5:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 243, 1, 0
+*******************Thread 3*******************
+***********************************************
+adding
+NH_time_blocked = 12473954254
+NH_count_blocks = 41
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.797689
+*******************Thread 4*******************
+***********************************************
+adding
+NH_time_blocked = 12539573138
+NH_count_blocks = 40
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.822932
+*******************Thread 1*******************
+***********************************************
+adding
+NH_time_blocked = 11731147802
+NH_count_blocks = 53
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.511993
+*******************Thread 2*******************
+***********************************************
+adding
+NH_time_blocked = 11697265372
+NH_count_blocks = 55
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.498959
+remaining value = 1168571
+wait_for_checkpoint = 0.000041
+finish running threads
+adding
+NH_time_blocked = 0
+NH_count_blocks = 0
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000000
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 18.631572 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 2499501
+ABORTS : 60537
+CONFLS : 9571
+CAPACS : 4595
+EXPLIC : 189
+FALLBK : 499
+   P_A : 0.023647
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 0.124757 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+[FORKED_MANAGER] Nb. checkpoints 32
+[FORKED_MANAGER] Time active 35402.811787 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 30
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 2
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 1.214758
+[FORKED_MANAGER] sec. 2 (find commit) = 0.314008
+[FORKED_MANAGER] sec. 3 (apply) = 4.127480
+[FORKED_MANAGER] sec. 4 (flush) = 0.223588
+[logger] NB_spins=0 NB_writes=132100078 TIME_spins=0.000000ms
+TOTAL_WRITES          383134984
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          378
+TOTAL_TIME_B (clocks) 48441940566
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.006831 s!
+7.236342

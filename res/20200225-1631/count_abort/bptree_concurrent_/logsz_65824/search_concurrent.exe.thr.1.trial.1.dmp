@@ -1,0 +1,30 @@
+initial_elements = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 1, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 81880304 byte
+*******************Thread 1*******************
+abort[0] user     = 0 times
+abort[1] conflict = 1047 times
+abort[2] capacity = 87 times
+abort[3] other    = 994415 times
+***********************************************
+resetting abort counters:
+lock = 14600
+transaction = 2485399
+abort[0] = 0
+abort[1] = 1047
+abort[2] = 87
+abort[3] = 994415
+*******************Thread 1*******************
+abort[0] user     = 0 times
+abort[1] conflict = 71 times
+abort[2] capacity = 1 times
+abort[3] other    = 119634 times
+***********************************************
+finish running threads
+write count: 0
+executed by lock = 0 times
+executed by transaction = 2500000 times
+abort[0] user     = 0 times
+abort[1] conflict = 71 times
+abort[2] capacity = 1 times
+abort[3] other    = 119634 times
+2.177466

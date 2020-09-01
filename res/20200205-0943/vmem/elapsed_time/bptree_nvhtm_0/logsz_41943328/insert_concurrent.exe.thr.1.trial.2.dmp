@@ -1,0 +1,88 @@
+initial_elements = 2500000, loop_times = 5000000, max_val = 7500000, thread_max = 1, pmem_path = /home/iiboshi/dramdir/data, log_path = /home/iiboshi/dramdir/log
+allocating 248088639 byte
+log_size = 83886656
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7fadf7e00000
+number of entry = 2097152
+*******************Thread 1*******************
+***********************************************
+remaining value = 235615
+wait_for_checkpoint = 0.000025
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2473321
+	ABORT    = 1997954
+	EXPLICIT = 244
+	RETRY    = 42
+	CONFLICT = 42
+	CAPACITY = 225797
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 1772115
+	FALLBACK = 26679
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 238, 6, 0
+*******************Thread 1*******************
+***********************************************
+remaining value = 689000
+wait_for_checkpoint = 0.000039
+finish running threads
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000032 s!
+[FORKED_MANAGER] Nb. checkpoints 489
+[FORKED_MANAGER] Time active 62953.400456 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 691
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 42
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 33.495865
+[FORKED_MANAGER] sec. 2 (find commit) = 0.012876
+[FORKED_MANAGER] sec. 3 (apply) = 21.736693
+[FORKED_MANAGER] sec. 4 (flush) = 2.285520
+[logger] NB_spins=0 NB_writes=357580900 TIME_spins=0.000000ms
+--- NH time blocked by CHECK_LOG_ABORT 24.260475 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 4946286
+ABORTS : 4721628
+CONFLS : 78
+CAPACS : 463629
+EXPLIC : 524
+FALLBK : 53714
+   P_A : 0.488381
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 30.066303 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          777020833
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          1612
+TOTAL_TIME_B (clocks) 63076967408
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.015873 s!
+64.453697

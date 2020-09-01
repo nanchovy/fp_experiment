@@ -1,0 +1,2 @@
+kmeansはTX_MALLOCを使うように変更した
+lib/rbtreeはrelease_nodeのとき普通にfreeしててバグったのでTX_FREEに変えた

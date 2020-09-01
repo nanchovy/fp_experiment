@@ -1,0 +1,91 @@
+log_size = 335546624
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7fceef200000
+number of entry = 2097152
+Budget=20
+adding
+NH_time_blocked = 516652
+NH_count_blocks = 696
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000200
+adding
+NH_time_blocked = 524032
+NH_count_blocks = 703
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000203
+adding
+NH_time_blocked = 636584
+NH_count_blocks = 713
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000246
+adding
+NH_time_blocked = 551652
+NH_count_blocks = 703
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000213
+adding
+NH_time_blocked = 595866
+NH_count_blocks = 760
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000230
+adding
+NH_time_blocked = 649548
+NH_count_blocks = 698
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000251
+adding
+NH_time_blocked = 562220
+NH_count_blocks = 715
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000217
+adding
+NH_time_blocked = 585104
+NH_count_blocks = 732
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000226
+--- Percentage time blocked 0.000833 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 0.001787 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 26279
+ABORTS : 117018
+CONFLS : 78194
+CAPACS : 13752
+EXPLIC : 5720
+FALLBK : 5326
+   P_A : 0.816612
+     X : 177734.992217
+ ---   TIME
+TRANSACTION_ABORT_TIME: 0.413274 s
+TRANSACTION_TIME: 0.200637 s
+Time 0.177821 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          741319
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          11440
+TOTAL_TIME_B (clocks) 4621658
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.806696 s!
+[FORKED_MANAGER] Nb. checkpoints 0
+[FORKED_MANAGER] Time active 39.288618 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 0
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 0
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 0.000123
+[FORKED_MANAGER] sec. 2 (find commit) = 0.000000
+[FORKED_MANAGER] sec. 3 (apply) = 0.000000
+[FORKED_MANAGER] sec. 4 (flush) = 0.000000
+[logger] NB_spins=0 NB_writes=0 TIME_spins=0.000000ms

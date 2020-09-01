@@ -1,0 +1,5 @@
+Maze dimensions = 256 x 256 x 3
+Paths to route  = 256
+Paths routed    = 256
+Elapsed time    = 3.319965 seconds
+Verification passed.

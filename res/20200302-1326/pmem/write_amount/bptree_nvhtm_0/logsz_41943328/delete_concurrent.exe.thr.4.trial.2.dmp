@@ -1,0 +1,173 @@
+initial_elements = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 4, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 81886592 byte
+log_size = 251659968
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7fab91c00000
+number of entry = 2097152
+*******************Thread 4*******************
+***********************************************
+remaining value = 0
+wait_for_checkpoint = 0.000010
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2473798
+	ABORT    = 2394928
+	EXPLICIT = 263
+	RETRY    = 11
+	CONFLICT = 11
+	CAPACITY = 448669
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 1946248
+	FALLBACK = 26202
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 2:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 3:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 4:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 5:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 243, 1, 0
+MN_thr_reset: written_bytes_thr = 1575061824
+*******************Thread 3*******************
+***********************************************
+add written_bytes_thr:46760576
+adding
+NH_time_blocked = 12589970530
+NH_count_blocks = 48
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.842315
+*******************Thread 4*******************
+***********************************************
+add written_bytes_thr:46736448
+adding
+NH_time_blocked = 12590792244
+NH_count_blocks = 42
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.842628
+*******************Thread 1*******************
+***********************************************
+add written_bytes_thr:58511104
+adding
+NH_time_blocked = 11744429170
+NH_count_blocks = 56
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.517103
+*******************Thread 2*******************
+***********************************************
+add written_bytes_thr:28128832
+adding
+NH_time_blocked = 11816864938
+NH_count_blocks = 50
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.544963
+remaining value = 1167723
+wait_for_checkpoint = 0.000045
+finish running threads
+MN_thr_reset: written_bytes_thr = 91749056
+add written_bytes_thr:0
+adding
+NH_time_blocked = 0
+NH_count_blocks = 0
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000000
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 18.747009 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 2499438
+ABORTS : 74544
+CONFLS : 11305
+CAPACS : 6724
+EXPLIC : 196
+FALLBK : 562
+[FORKED_MANAGER] Nb. checkpoints 32
+[FORKED_MANAGER] Time active 30777.333788 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 30
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 2
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 1.280199
+[FORKED_MANAGER] sec. 2 (find commit) = 0.304004
+[FORKED_MANAGER] sec. 3 (apply) = 4.147040
+[FORKED_MANAGER] sec. 4 (flush) = 0.228899
+[logger] NB_spins=0 NB_writes=132116208 TIME_spins=0.000000ms
+   P_A : 0.028961
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 0.164546 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          761271342
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          392
+TOTAL_TIME_B (clocks) 48742056882
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.007817 s!
+add written_bytes_thr:564432064
+write amount (checkpoint): 564432064
+write amount (worker): 180136960
+7.393915

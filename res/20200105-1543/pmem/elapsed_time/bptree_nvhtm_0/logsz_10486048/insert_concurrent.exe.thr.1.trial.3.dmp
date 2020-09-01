@@ -1,0 +1,81 @@
+warm_up = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 1, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 165395900 byte
+log_size = 20972096
+log_size_per_thread = 10486048
+LOG_global_ptr = 0x7ffaf2400000
+number of entry = 524288
+*******************Thread 1*******************
+***********************************************
+wait_for_checkpoint = 2.840536
+reset error counter
+thread 0:
+	SUCCESS  = 2473667
+	ABORT    = 1523305
+	EXPLICIT = 1015
+	RETRY    = 30
+	CONFLICT = 30
+	CAPACITY = 226451
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 1296824
+	FALLBACK = 26333
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset: nb_checkpoints = 979, checkpoint_by = 946, 33, 0
+*******************Thread 1*******************
+***********************************************
+wait_for_checkpoint = 3.842034
+finish running threads
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000057 s!
+--- NH time blocked by CHECK_LOG_ABORT 12.120120 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 2473565
+ABORTS : 1265582
+CONFLS : 59
+CAPACS : 241661
+EXPLIC : 998
+FALLBK : 26435
+   P_A : 0.338468
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 12.134415 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          518646488
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          4254
+[FORKED_MANAGER] Nb. checkpoints 980
+[FORKED_MANAGER] Time active 33752.783916 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 896
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 84
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[logger] NB_spins=0 NB_writes=258924821 TIME_spins=0.000000ms
+TOTAL_TIME_B (clocks) 31512174658
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.007526 s!

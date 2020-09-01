@@ -1,0 +1,249 @@
+initial_elements = 2500000, loop_times = 2500000, max_val = 5000000, thread_max = 8, pmem_path = /mnt/nvmm/iiboshi/data, log_path = /mnt/nvmm/iiboshi/log
+allocating 81894976 byte
+log_size = 419433280
+log_size_per_thread = 41943328
+LOG_global_ptr = 0x7f8340000000
+number of entry = 2097152
+*******************Thread 8*******************
+***********************************************
+remaining value = 0
+wait_for_checkpoint = 0.000030
+HTM_nanotime_blocked_total = 0.000000
+NH_time_blocked_total (WL) = 0.000000
+NH_time_blocked_total (CA) = 0.000000
+reset error counter
+thread 0:
+	SUCCESS  = 2473081
+	ABORT    = 2423870
+	EXPLICIT = 276
+	RETRY    = 4
+	CONFLICT = 4
+	CAPACITY = 460852
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 1963014
+	FALLBACK = 26919
+thread 1:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 2:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 3:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 4:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 5:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 6:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 7:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 8:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+thread 9:
+	SUCCESS  = 0
+	ABORT    = 0
+	EXPLICIT = 0
+	RETRY    = 0
+	CONFLICT = 0
+	CAPACITY = 0
+	DEBUG    = 0
+	NESTED   = 0
+	OTHER    = 0
+	FALLBACK = 0
+reset: nb_checkpoints = 244, checkpoint_by = 244, 0, 0
+MN_thr_reset: written_bytes_thr = 1575076736
+*******************Thread 1*******************
+***********************************************
+add written_bytes_thr:21400512
+adding
+NH_time_blocked = 13240156916
+NH_count_blocks = 45
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 5.092379
+*******************Thread 5*******************
+***********************************************
+add written_bytes_thr:22697728
+adding
+NH_time_blocked = 13241106884
+NH_count_blocks = 62
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 5.092743
+*******************Thread 3*******************
+***********************************************
+add written_bytes_thr:22654592
+adding
+NH_time_blocked = 13271886048
+NH_count_blocks = 55
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 5.104584
+*******************Thread 6*******************
+***********************************************
+add written_bytes_thr:55617344
+adding
+NH_time_blocked = 13233475138
+NH_count_blocks = 53
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 5.089808
+*******************Thread 2*******************
+***********************************************
+add written_bytes_thr:14249472
+adding
+NH_time_blocked = 12786555750
+NH_count_blocks = 63
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.917916
+*******************Thread 7*******************
+***********************************************
+add written_bytes_thr:15015232
+adding
+NH_time_blocked = 12771807136
+NH_count_blocks = 86
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.912244
+*******************Thread 8*******************
+***********************************************
+add written_bytes_thr:49339136
+adding
+NH_time_blocked = 12813682396
+NH_count_blocks = 93
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.928348
+*******************Thread 4*******************
+***********************************************
+add written_bytes_thr:15349824
+adding
+NH_time_blocked = 12816893122
+NH_count_blocks = 116
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 4.929585
+remaining value = 1186198
+wait_for_checkpoint = 0.000058
+finish running threads
+MN_thr_reset: written_bytes_thr = 91752064
+add written_bytes_thr:0
+adding
+NH_time_blocked = 0
+NH_count_blocks = 0
+NH_nanotime_blocked[0] = 0.000000
+NH_nanotime_blocked[1] = 0.000000
+--- Percentage time blocked inf 
+--- Nb. checkpoints 0
+--- Time blocked 0.000000e+00 ms!
+--- NH time blocked by WAIT_MORE_LOG 0.000000 s!
+--- NH time blocked by CHECK_LOG_ABORT 40.067607 s!
+
+
+ ########################################### 
+ ########################################### 
+ --- ABORTS
+COMMIT : 2498860
+ABORTS : 84811
+CONFLS : 30476
+CAPACS : 10756
+EXPLIC : 573
+[FORKED_MANAGER] Nb. checkpoints 16
+[FORKED_MANAGER] Time active 30647.685891 ms!
+[FORKED_MANAGER] Applied TXs 0 
+[FORKED_MANAGER] Time extra sort logs 0.000000 ms 
+[FORKED_MANAGER] by before_TX = 14
+[FORKED_MANAGER] by CHECK_LOG_ABORT = 2
+[FORKED_MANAGER] by WAIT_MORE_LOG = 0
+[FORKED_MANAGER] sec. 1 (reserve) = 1.234699
+[FORKED_MANAGER] sec. 2 (find commit) = 0.490251
+[FORKED_MANAGER] sec. 3 (apply) = 4.124872
+[FORKED_MANAGER] sec. 4 (flush) = 0.145699
+[logger] NB_spins=0 NB_writes=120259986 TIME_spins=0.000000ms
+FALLBK : 1140
+   P_A : 0.032826
+     X : inf
+ ---   TIME
+TRANSACTION_ABORT_TIME: 0.226480 s
+Time 0.000000 s
+TIME_TX 0.000000 ms
+TIME_AFTER 0.000000 ms
+AVG_CAP -nan
+TOTAL_WRITES          761603192
+TOTAL_SPINS (workers) 0
+TOTAL_BLOCKS          1146
+TOTAL_TIME_B (clocks) 104175563390
+ ---   ----
+ ########################################### 
+ ########################################### 
+
+--- HTM time blocked 0.018239 s!
+add written_bytes_thr:357692480
+write amount (checkpoint): 357692480
+write amount (worker): 216323840
+7.151038
