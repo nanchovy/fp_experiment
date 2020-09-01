@@ -226,7 +226,7 @@ void *karmalloc(size_t nbytes) {
         *(PMemHeader *)_pmem_memory_root = mem_head;
         base.s.ptr = (PMemHeader *)_pmem_memory_root;
         p = base.s.ptr;
-        printPMemHeaderinfo(p);
+       // printPMemHeaderinfo(p);
         // p->s.ptr = p;
     }
     for (p = q->s.ptr;; q = p, p = p->s.ptr) {
@@ -235,7 +235,7 @@ void *karmalloc(size_t nbytes) {
                 q->s.ptr = p->s.ptr;
             else {
                 p->s.size -= nunits;
-                printf("remaing p size: %d\n", p->s.size);
+               // printf("remaing p size: %d\n", p->s.size);
                 p += p->s.size;
                 p->s.size = nunits;
            }
